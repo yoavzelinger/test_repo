@@ -110,7 +110,7 @@ section
 #Content h3
 {
 	direction: rtl;
-	text-decoration: underline;
+	text-decoration: underlne;
 	font-style: italic;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -118,3 +118,60 @@ section
 {
 	width: 300px;
 }
+
+#contact_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: whitesmoke;
+	padding: 20px;
+	height: 200px;
+}
+
+.contact_item
+{
+	text-align: center;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 4px;
+}
+#message_content_box
+{
+	width: 50%;
+	height: 80%;
+	resize: none;
+	text-align: left;
+}
+  
+#message_content_box::placeholder
+{
+	text-align: center;
+}
+
+#contact button
+{
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+#contact button:hover
+{
+	cursor: pointer;
+}
+#send_button
+{
+	background-color: rgba(7, 197, 7, 0.568);
+}
+#send_button:hover
+{
+	background: green;
+}
+/* #clear_button
+{
+	background-color: rgba(252, 252, 252, 0.159);
+} */
+/* #clear_button:hover
+{
+	background: rgba(143, 143, 143, 0.247);
+} */
